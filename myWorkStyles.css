@@ -235,7 +235,7 @@ body, html {
     }
     .project-name-description, .project-image-description {
         width: 100%;
-        text-align: center;
+        text-align: start;
     }
     .project-image-description img {
         width: 100%;
