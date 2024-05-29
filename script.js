@@ -24,6 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         mediaContainer.addEventListener("mouseout", function() {
             video.pause();
-            video.currentTime = 0; // Reset video to the start when hover ends
+            video.currentTime = 0; 
         });
     });
