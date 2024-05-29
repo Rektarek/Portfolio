@@ -695,4 +695,38 @@ footer p {
         width:80vw;
         font-weight: bold;
     }
+
+
+
+    .drop {
+        transform: translate(-20%,-800%) scaleX(0.5);
+      }
+    
+      @keyframes move {
+        0% {
+          transform: translate(-20%,-800%) scaleX(0.2);
+          height: 60px;
+        }
+        10% {
+          transform: translate(-20%,-800%) scaleX(0.2);
+          height: 60px;
+        }
+        30% {
+          transform: translate(-20%,400%);
+          height: 30px;
+        }
+        70% {
+          transform: translate(-20%,400%);
+          height: 30px;
+        }
+        90% {
+          transform: translate(-20%,-800%) scaleX(0.2);
+          height: 60px;
+        }
+        100% {
+          transform: translate(-20%,-800%) scaleX(0.2);
+          height: 60px;
+        }
+      }
+
 }
