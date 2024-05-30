@@ -29,7 +29,7 @@ body, html {
 
 .intro-left {
     flex-shrink: 0;
-    position: relative; /* Added for positioning */
+    position: relative;
 }
 
 .intro-left h1 {
@@ -170,7 +170,7 @@ h1 span {
     margin: 2rem;
 }
 
-/* Dropdown Section */
+/*----------------------------------------Dropdown Section---------------------------------------------*/
 h2 {
     display: flex;
     align-items: center;

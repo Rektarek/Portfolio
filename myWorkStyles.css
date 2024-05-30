@@ -96,6 +96,65 @@ body, html {
     margin-bottom: 60px;
 }
 
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem; 
+}
+
+.custom-button {
+    width: 6rem; 
+    height: 3.125rem; 
+    border: none; 
+    background-color: #e8c384; 
+    margin: 0 0.625rem; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, margin 0.3s ease;
+    transform-origin: center bottom; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.custom-button span {
+    font-size: 1rem; 
+    color: black; 
+    font-weight: bold;
+    position: relative; 
+    z-index: 2; 
+}
+
+.custom-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    z-index: 1;
+    transition: inherit;
+}
+
+.custom-button:hover::before {
+    transform: scaleX(1.5);
+}
+
+.custom-button:hover {
+    background-color: rgb(255, 255, 255);
+    margin: 0 1.25rem;
+}
+
+
+
+
 .project-container {
     width: 100%;
     display: flex;
